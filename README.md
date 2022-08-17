@@ -1,3 +1,5 @@
+# node.js integrated with  Express.js and PostgreSQL
+
 ### Feature :
 - There are only 6 endpoints created, consisting of Browse, Read, Edit, Add, Delete (BREAD).
 - Only consists of 1 table, i.e. user table.
@@ -20,12 +22,12 @@ psql (PostgreSQL) 11.2
 ```
 
 ## Starting Development
-```
+Open your termina (cmd, powershell, git bash and so on)
 Install all required dependencies using `npm` or you can also use` yarn`:
 ```
 npm install or yarn install
 ```
-If you want to run the project in `development` or` testing` mode, then you must set the database configuration according to the database configuration on your machine, such as `username`,` password` and `host`, then it is recommended that you name the database you are using for `development` or` testing` mode is different to avoid the things you don't want, and all this configuration you have to do in the `config / config.js` file.
+If you want to run the project in `development` or` testing` mode, then you must set the database configuration according to the database configuration on your computer, such as `username`,` password` and `host`, then it is recommended that you name the database you are using for `development` or` testing` mode is different to avoid the things you don't want, and all this configuration you have to do in the `config / config.js` file.
 For `development` mode you must set it here :
 ```
 "development": {
@@ -58,7 +60,7 @@ Run a test :
 ```
 npm run test
 ```
-After running the test, you will see the results of testing coverage of this repository
+After running the test, you will see the results of testing coverage of this repository.
 
 The benefit of using swagger is that we can test the endpoints that we have made when the project has been deployed or in other words when in production mode, but you have to turn off comments on line 8 and vice versa you have to make line 7 as a comment in the file ` app.js` and make changes to `HOST` with` YOUR_HOST_APP` :
 ```
