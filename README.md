@@ -1,24 +1,23 @@
-# node.js integrated with  Express.js and PostgreSQL
+# Node.js integrated with Express.js and PostgreSQL
 
 ### Feature :
-- There are only 6 endpoints created, consisting of Browse, Read, Edit, Add, Delete (BREAD).
-- Only consists of 1 table, i.e. user table.
+- There are 6 endpoints: Created, browse, read, edit, add and delete
+- Only contains 1 table, i.e. user table.
 - There are no access level / role attributes in this user table to distinguish the access rights of each user.
-- The JWT token generated has not been used.
 - Only 11 test cases have been made.
 
 ## Steps to start this project on your machine
-To run this project, you must have installed nodejs and postgresql.
+To run this project, nodejs and postgresql have to be installed.
 
 Version of Node.js:
 ```
 node --version
-v12.13.0
+v14.20.0
 ```
 Version of PostgreSQL:
 ```
 psql --version
-psql (PostgreSQL) 11.2
+psql (PostgreSQL) 14.5
 ```
 
 ## Starting Development
